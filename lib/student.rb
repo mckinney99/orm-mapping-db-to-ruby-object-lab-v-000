@@ -105,5 +105,5 @@ end
     DB[:conn].execute(sql)
       DB[:conn].execute(sql, self.name, self.grade)
     end
-  
+
 end

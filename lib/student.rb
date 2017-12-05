@@ -34,7 +34,8 @@ class Student
       self.new_from_db(row)
     # find the student in the database given a name
     # return a new instance of the Student class
-  end
+  end.first
+end
 
   def save
     sql = <<-SQL

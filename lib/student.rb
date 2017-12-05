@@ -103,7 +103,7 @@ end
     LIMIT 1
     SQL
     self.new_from_db(DB[:conn].execute(sql).flatten)
-end
     end
+  end
 
 end

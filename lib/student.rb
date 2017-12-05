@@ -102,7 +102,7 @@ end
     WHERE grade = 10
     LIMIT 1
     SQL
-    DB[:conn].execute(sql)
+    (DB[:conn].execute(sql).flatten)
     self.new_from_db
 
     end

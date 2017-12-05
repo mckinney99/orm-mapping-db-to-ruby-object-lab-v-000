@@ -105,4 +105,5 @@ end
     self.new_from_db(DB[:conn].execute(sql).flatten)
   end
 
+    
 end
